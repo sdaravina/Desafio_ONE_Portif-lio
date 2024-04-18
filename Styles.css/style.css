@@ -1,0 +1,32 @@
+@import url("../Styles.css/cabeçalho.css");
+@import url("../Styles.css/Sobremim.css");
+@import url("../Styles.css/contato.css");
+@import url("../Styles.css/rodapé.css");
+
+:root {
+    --fonte-principal: "Raleway";
+    --cinza: #464646; 
+    --cor-fundo: #f6f6f6;
+    --fundo-card: #F5EBE0; 
+    --fundo-skill: #FFFFFF;
+    --rosa-botão: #DBA39A;
+    --rosa-claro: #F0DBDB; 
+    --rosa-claro2: #F8C4B4; 
+    --cinza-claro: #A2A2A2; 
+    --vermelho: #FF0000;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-size: 16px;
+}

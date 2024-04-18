@@ -1,0 +1,14 @@
+.rodapé {
+    padding: 2em;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+    padding: 0.5em;
+}
+
+.rodapé__info {
+    font-size: 16px;
+    font-weight: 500;
+}

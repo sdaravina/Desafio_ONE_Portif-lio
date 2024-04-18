@@ -1,0 +1,272 @@
+section.sobre { 
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+#img__div {
+    display: flex;
+    padding-left: 80%;
+}
+
+.sobre__titulo {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+}
+
+.sobre__texto {
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--cinza);
+    padding: 1em;
+}
+
+.imagem__sobre {
+    max-width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin: 0;
+    margin: 0;
+}
+
+.apresentação__redes {
+    display: flex;
+    padding-left: 3%;
+    justify-content: left;
+}
+
+.titulo__redes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container__história {
+    background-color: var(--fundo-card);
+    margin: 1em 0;
+    padding: 2em;
+}
+
+.titulo__história {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+}
+
+.texto__história {
+    font-weight: 400;
+    padding: 1em 0;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+}
+
+.skill__titulo { 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill__itens {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.skill__imagem {
+    list-style-type: none;
+    padding: 3.5em;
+    width: 15%;
+    background-color: var(--fundo-skill);
+}
+
+.skill__nome {
+    background-color: var(--fundo-skill);
+    font-weight: 700;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.Hobbies__titulo { 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Hobbies__itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.5em 0 1em 1em;
+}
+
+.hobbies__imagem img{
+    list-style-type: none;
+    max-width: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.hobbies__imagem {
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbies__nome {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0;
+}
+
+.Formação {
+    background-color: var(--fundo-card);
+}
+
+.formação__titulo { 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5em;
+    font-family: var(--fonte-principal);
+}
+
+.formação__cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1em 0 1em 1em;
+}
+
+.formação__instituição-faculdade {
+    list-style-type: none;
+    padding: 2em 0;
+    background-color: var(--fundo-skill);
+}
+
+.formação__lista {
+    padding: 0 1em;
+}
+.formação__instituição { 
+    list-style-type: none;
+    width: 170px;
+    padding: 0 2.5em;
+    background-color: var(--fundo-skill);
+    padding-left: 3%;
+}
+
+.formação__nome {
+    font-size: 18px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.formação__período {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+section.experiência {
+    padding: 4% 0 4%;
+}
+
+.experiência__projetos {
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+}
+
+#exp {
+    flex-direction: row-reverse;
+}
+
+.experiência__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiência__projetos:nth-child(3) {
+    flex-direction: row-reverse;
+}
+
+.experiência__imagem {
+    width: 40%;
+    padding: 0 5em;
+}
+
+.experiência__botão--demo {
+    display: inline-block;
+    align-items: center;
+    font-weight: 400;
+    padding: 0.7em;
+    color: var(--fundo-skill);
+    background-color: var(--rosa-botão);
+    border-color: transparent;
+    border-width: 0.1em;
+}
+
+.experiência__botão--demo:hover {
+    color: var(--rosa-botão);
+    background-color: transparent;
+    border-color: var(--rosa-botão);
+}
+
+.experiência__botão--repo {
+    display: inline-block;
+    align-items: center;
+    font-weight: 400;
+    padding: 0.7em;
+    color: var(--rosa-botão);
+    background-color: transparent;
+    border-color: var(--rosa-botão);
+    border-width: 0.1em;
+}
+
+.experiência__botão--repo:hover {
+    color: var(--fundo-skill);
+    background-color: var(--rosa-botão);
+}
+
+.experiência__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.experiência__item {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.experiência__texto {
+    margin: 0;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1em 0;
+}
+

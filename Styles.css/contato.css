@@ -1,0 +1,88 @@
+
+.formulário__contato {
+    padding: 3em;
+    background-color: var(--fundo-card);
+    display: flex;
+}
+
+.contato__imagem {
+    padding: 3em 0 2em 4em;
+}
+
+.img__contato {
+    width: 75%;
+    padding-left: 20%;
+}
+
+.formulário__contato__titulo { 
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0.5em 0.4em;
+}
+
+
+.formulário__contato__texto {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 1em;
+}
+
+.contato__input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+}
+
+.contato__input { 
+    background-color: var(--fundo-skill);
+    border-color: transparent;
+    color: var(--cinza);
+    border-radius: 2px;
+    padding: 1em;
+    width: 50%;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato__textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+}
+.contato__textarea {
+    background-color: var(--fundo-skill);
+    border-color: transparent;
+    color: var(--cinza);
+    border-radius: 2px;
+    padding: 1em;
+    width: 50%;
+    margin: 1em;
+    display: flex;
+}
+
+.contato__botão {
+    background-color: var(--rosa-botão);
+    border-color: transparent;
+    color: var(--fundo-skill);
+    display: flex;
+    padding: 1em;
+    margin-left: 2%;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+}
+
+.contato__botão:hover {
+    background-color: var(--rosa-claro2);
+    color: var(--cinza);
+}
+
+#mensagem-erro {
+    text-align: left;
+    padding: 0.5em;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--vermelho);
+}
