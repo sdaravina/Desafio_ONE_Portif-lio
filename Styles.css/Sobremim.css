@@ -377,6 +377,17 @@ section.experiência {
         line-height: 38px;
         margin-top: 50px;
     }
+
+    .formação__instituição-faculdade {
+        height: 100px;
+        width: 250%;
+    }
+
+    .formação__instituição {
+        height: 100px;
+        width: 200%;
+    }
+
     .experiência {
         gap: 32px;
     }
@@ -399,8 +410,8 @@ section.experiência {
     }
 
     .experiência__imagem { 
-        height: 216px;
-        width: 40%;
+        height: 150px;
+        width: 50%;
     }
 
     .experiência__info {
