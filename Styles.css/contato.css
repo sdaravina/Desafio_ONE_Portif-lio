@@ -86,3 +86,41 @@
     font-weight: bold;
     color: var(--vermelho);
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    .contato__informação {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .contato__imagem {
+        display: none;
+    }
+
+    .formulário__contato {
+        width: 100%;
+        padding: 0;
+     }
+
+    .formulário__contato__titulo {
+        font-size: 32px;
+    }
+
+    .formulário__contato__texto {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .contato__input {
+        height: 25px;
+    }
+    .contato__textarea {
+        height: 25px;
+    }
+    .contato__botão {
+        width: 30%;
+    }
+}
+

@@ -58,6 +58,10 @@ a {
     font-weight: 700;
     font-size: 32px;
     text-align: left;
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+
 }
 
 .texto__história {
@@ -85,16 +89,22 @@ a {
 
 .skill__imagem {
     list-style-type: none;
-    padding: 3.5em;
-    width: 15%;
+    text-align: center;
+    align-items: center;
+    padding: 2em 2em;
+    border-radius: 50%;
     background-color: var(--fundo-skill);
 }
 
+.skill__imagem img{
+    width: 60%;
+    align-items: center;
+}
+
 .skill__nome {
-    background-color: var(--fundo-skill);
     font-weight: 700;
     list-style-type: none;
-    padding: 0;
+    padding: 0.5em;
     text-align: center;
 }
 
@@ -152,28 +162,29 @@ a {
 
 .formação__cursos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 1em 0 1em 1em;
+    margin: 0 0 0.5em 2em;
+    padding: 0.5em 0 1em 6em;
+    padding-left: 8%;
+}
+
+.formação__instituição-faculdade img{
+    width: 30%;
 }
 
 .formação__instituição-faculdade {
     list-style-type: none;
     padding: 2em 0;
-    background-color: var(--fundo-skill);
+    align-items: center;
 }
 
-.formação__lista {
-    padding: 0 1em;
+.formação__instituição img{ 
+    width: 20%;
 }
+
 .formação__instituição { 
     list-style-type: none;
-    width: 170px;
-    padding: 0 2.5em;
-    background-color: var(--fundo-skill);
-    padding-left: 3%;
 }
 
 .formação__nome {
@@ -185,6 +196,7 @@ a {
 .formação__período {
     list-style-type: none;
     font-weight: 500;
+    padding-bottom: 1em;
 }
 
 section.experiência {
@@ -268,5 +280,150 @@ section.experiência {
     font-weight: 500;
     font-size: 15px;
     padding: 1em 0;
+}
+
+@media screen and (min-width: 767px) {
+    .sobre {
+        align-items: center;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .sobre__texto {
+        width: 751px;
+    }
+
+    .imagem__sobre {
+        width: 100%;
+    }
+
+    .história {
+        padding: 30px 0;
+    }
+
+
+    .skill__apresentação, .Hobbies__apresentação {
+        flex-direction: row;
+    }
+
+    .apresentação__formação {
+        flex-direction: row;
+    }
+
+    .experiência__imagem {
+        height: 416px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sobre {
+        padding: 0;
+    }
+
+    .sobre__titulo {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .sobre__texto {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .apresentação__redes {
+        gap: 32px
+    }
+
+    .titulo__redes a{
+        font-size: 16px;
+    }
+    .titulo__redes img{
+        height: auto;
+    }
+    
+    .container__história {
+        margin: 30px 0 auto;
+        width: 90%;
+    }
+
+    .história {
+        padding: 64px 0;
+    }
+
+    .titulo__história {
+        font-size: 32px;
+    }
+
+    .texto__história {
+        font-size: 16px;
+        line-height: 19px;
+        width: 100%;
+    }
+
+    .skill, .Hobbies {
+        margin: 0 auto 88px;
+        width: 80%;
+    }
+
+    .skill__titulo {
+        margin-top: 70px;
+    }
+
+    .formacao__titulo {
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 50px;
+    }
+    .experiência {
+        gap: 32px;
+    }
+
+    .experiência__titulo{ 
+        font-size: 32px;
+    }
+    .experiência__projetos {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }   
+
+    #exp { 
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiência__imagem { 
+        height: 216px;
+        width: 40%;
+    }
+
+    .experiência__info {
+        align-items: flex-start;
+        max-width: none;
+        width: 30%;
+    }
+
+    .experiência__item { 
+        font-size: 22px;
+    }
+
+    .experiência__texto {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .experiência__descrição { 
+        font-size: 16px;
+    }
+
+    .experiência__botão--demo:hover, .experiência__botão--repo:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
 
