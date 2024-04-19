@@ -12,6 +12,7 @@ section.sobre {
 }
 
 .sobre__titulo {
+    padding: 0 0.5em;
     font-weight: 700;
     font-size: 45px;
     color: var(--cinza);
